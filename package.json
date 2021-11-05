@@ -1,0 +1,37 @@
+{
+  "name": "@shuang/taro-cli",
+  "version": "0.0.1",
+  "description": "霜月 Taro 脚手架",
+  "main": "index.js",
+  "bin": {
+    "shuang": "./bin/shuang"
+  },
+  "scripts": {
+    "dev": "node index.js",
+    "generator": "babel-node test.js"
+  },
+  "_moduleAliases": {
+    "@utils": "./utils",
+    "@logger": "./logs",
+    "@libs": "./libs",
+    "@config": "./config"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "javascript"
+  ],
+  "author": "shuang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "execa": "^5.1.1",
+    "inquirer": "^8.1.1",
+    "listr": "^0.14.3",
+    "module-alias": "^2.2.2",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4",
+    "underscore": "^1.13.1"
+  }
+}
