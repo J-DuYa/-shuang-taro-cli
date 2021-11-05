@@ -1,5 +1,3 @@
-# @duya/shuang-cli
-
 ## 创建 taro page
 ```bash
 shuang create page demo
