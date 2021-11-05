@@ -7,7 +7,7 @@ shuang create page demo
 
 ## 创建 taro component
 ```
-shuang create page demo
+shuang create component demo
 ```
 
 ## 提交代码
